@@ -1,7 +1,7 @@
 Quick Start
 ==========================
 
-Softwarwe Installation
+Software Installation
 --------------------------
 
 ### Intel DPDK install
@@ -101,7 +101,7 @@ Check PCI ID to enable DPDK on 2nd, 3rd, and 4th NIC.
 
 If NIC used for management (ex: ssh) was selected, you will lose connection.
 
-	$ sudo $(RTE_SDK}/tools./pci_unbind.py --status
+	$ sudo ${RTE_SDK}/tools/pci_unbind.py --status
 
 	Network devices using IGB_UIO driver
 	====================================
