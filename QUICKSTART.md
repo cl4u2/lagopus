@@ -82,7 +82,7 @@ You can setup hugepage with two ways:
 
 1. Manual confguration (Hugepage size: 2MB)
 
-		$ echo 256 > sudo tee /sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages
+		$ echo 256 | sudo tee /sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages
 		$ sudo mkdir -p /mnt/huge
 		$ sudo mount -t hugetlbfs nodev /mnt/huge
 
